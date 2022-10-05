@@ -1,9 +1,27 @@
 *{
-
+    background-color: bisque;
 }
 
 .container{
+    text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
+}
+input{
+    margin: 0 auto;
+    max-width: 200px;
+}
+button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 15px;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: 2rem auto;
+}
+table{
+    margin: 1rem auto;
     width: 50vw;
+    background-color: black;
 }
